@@ -1,5 +1,5 @@
 {
-    "name": "@bennetfabian/iconjar-exporter",
+    "name": "iconjar-exporter",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -23,4 +23,4 @@
       "url": "https://github.com/bennetfabian/iconjar-exporter/issues"
     },
     "homepage": "https://github.com/bennetfabian/iconjar-exporter#readme"
-  }
+}

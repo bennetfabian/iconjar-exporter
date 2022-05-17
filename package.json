@@ -1,18 +1,26 @@
 {
-  "name": "iconjar-exporter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "Bennet Robin Fabian",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc --target ES6 --module commonjs --outDir \".\" --types \"node\" ./src/*.ts",
-    "eslint": "eslint src/*.ts"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.34",
-    "@typescript-eslint/eslint-plugin": "5.25.0",
-    "@typescript-eslint/parser": "5.25.0",
-    "eslint": "8.15.0"
+    "name": "@bennetfabian/iconjar-exporter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "devDependencies": {
+      "@types/node": "17.0.34",
+      "@typescript-eslint/eslint-plugin": "5.25.0",
+      "@typescript-eslint/parser": "5.25.0",
+      "eslint": "8.15.0"
+    },
+    "scripts": {
+      "build": "tsc --target ES6 --module commonjs --outDir \".\" --types \"node\" ./src/*.ts",
+      "eslint": "eslint src/*.ts"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bennetfabian/iconjar-exporter.git"
+    },
+    "author": "Bennet Robin Fabian",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bennetfabian/iconjar-exporter/issues"
+    },
+    "homepage": "https://github.com/bennetfabian/iconjar-exporter#readme"
   }
-}

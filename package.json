@@ -1,0 +1,18 @@
+{
+  "name": "iconjar-exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Bennet Robin Fabian",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --target ES6 --module commonjs --outDir \".\" --types \"node\" ./src/*.ts",
+    "eslint": "eslint src/*.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "eslint": "^8.15.0"
+  }
+}

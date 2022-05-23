@@ -22,6 +22,6 @@
     "bugs": {
       "url": "https://github.com/bennetfabian/iconjar-exporter/issues"
     },
-    "types": "./index.d.ts"
+    "types": "./index.d.ts",
     "homepage": "https://github.com/bennetfabian/iconjar-exporter#readme"
 }

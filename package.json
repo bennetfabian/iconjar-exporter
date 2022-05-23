@@ -10,8 +10,8 @@
       "eslint": "8.16.0"
     },
     "scripts": {
-      "build": "tsc --target ES6 --module commonjs --outDir \".\" --types \"node\" ./src/*.ts",
-      "eslint": "eslint src/*.ts"
+      "build": "tsc --target ES6 --module commonjs --declaration --outDir \".\" --types \"node\" ./src/*.ts",
+      "eslint": "eslint ./src/*.ts ./index.d.ts"
     },
     "repository": {
       "type": "git",

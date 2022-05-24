@@ -89,7 +89,7 @@ export default class IconJar {
      * @return string
      * @throws CreationException
      */
-    save(pathToSave: any): string;
+    save(pathToSave: string): string;
 }
 export declare class Icon {
     static readonly TYPE_UNKNOWN = -1;
@@ -165,7 +165,7 @@ export declare class Icon {
      *
      * @return number
      */
-    static getType(file: any): 1 | -1 | 0 | 2 | 3 | 4 | 5 | 6;
+    static getType(file: string): 1 | -1 | 0 | 2 | 3 | 4 | 5 | 6;
     /**
      * @param string tag
      *

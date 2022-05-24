@@ -165,7 +165,7 @@ export declare class Icon {
      *
      * @return number
      */
-    static getType(file: any): 1 | -1 | 0 | 2 | 3 | 4 | 5 | 6;
+    static getType(file: string): 1 | -1 | 0 | 2 | 3 | 4 | 5 | 6;
     /**
      * @param string tag
      *

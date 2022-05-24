@@ -171,7 +171,7 @@ class IconJar {
             dict['parent'] = set.group.identifier;
         }
         if (set.license instanceof License) {
-            dict['license'] = this.compileLicense(set.license);
+            dict['licence'] = this.compileLicense(set.license);
         }
         this.sets[set.identifier] = dict;
         set.icons.forEach((icon) => {

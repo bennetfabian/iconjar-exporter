@@ -13,19 +13,19 @@ export default class IconJar {
     /**
      * @var array
      */
-    protected groups: Record<string, never>;
+    protected groups: {};
     /**
      * @var array
      */
-    protected sets: Record<string, never>;
+    protected sets: {};
     /**
      * @var array
      */
-    protected icons: Record<string, never>;
+    protected icons: {};
     /**
      * @var array
      */
-    protected licenses: Record<string, never>;
+    protected licenses: {};
     /**
      * @var undefined|string
      */
@@ -89,7 +89,7 @@ export default class IconJar {
      * @return string
      * @throws CreationException
      */
-    save(pathToSave: string): string;
+    save(pathToSave: any): string;
 }
 export declare class Icon {
     static readonly TYPE_UNKNOWN = -1;
@@ -159,13 +159,13 @@ export declare class Icon {
      * @param string fileOnDisk
      * @param number type
      */
-    constructor(name: string, fileOnDisk: string, type?: number);
+    constructor(name: string, fileOnDisk: string, type: number);
     /**
      * @param file
      *
      * @return number
      */
-    static getType(file: string): 1 | -1 | 0 | 2 | 3 | 4 | 5 | 6;
+    static getType(file: any): 1 | -1 | 0 | 2 | 3 | 4 | 5 | 6;
     /**
      * @param string tag
      *

@@ -13,19 +13,19 @@ export default class IconJar {
     /**
      * @var array
      */
-    protected groups: {};
+    protected groups: Record<string, unknown>;
     /**
      * @var array
      */
-    protected sets: {};
+    protected sets: Record<string, unknown>;
     /**
      * @var array
      */
-    protected icons: {};
+    protected icons: Record<string, unknown>;
     /**
      * @var array
      */
-    protected licenses: {};
+    protected licenses: Record<string, unknown>;
     /**
      * @var undefined|string
      */

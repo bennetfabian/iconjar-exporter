@@ -89,7 +89,7 @@ export default class IconJar {
      * @return string
      * @throws CreationException
      */
-    save(pathToSave: any): string;
+    save(pathToSave: string): string;
 }
 export declare class Icon {
     static readonly TYPE_UNKNOWN = -1;

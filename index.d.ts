@@ -159,7 +159,7 @@ export declare class Icon {
      * @param string fileOnDisk
      * @param number type
      */
-    constructor(name: string, fileOnDisk: string, type: number);
+    constructor(name: string, fileOnDisk: string, type?: number);
     /**
      * @param file
      *

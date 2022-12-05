@@ -7,7 +7,7 @@
         "@types/node": "18.11.11",
         "@typescript-eslint/eslint-plugin": "5.45.1",
         "@typescript-eslint/parser": "5.45.1",
-        "eslint": "8.28.0"
+        "eslint": "8.29.0"
     },
     "scripts": {
         "build": "tsc --target ES6 --module commonjs --declaration --outDir \".\" --types \"node\" ./src/*.ts",
